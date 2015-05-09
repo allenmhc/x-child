@@ -1,0 +1,9 @@
+.page,
+.single-post {
+  .x-main {
+    &.left .hentry .entry-featured {
+      margin-top: 0 !important;
+    }
+  }
+}
+

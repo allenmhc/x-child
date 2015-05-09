@@ -32,3 +32,7 @@ if (! function_exists('x_child_body_class_info')):
 endif;
 
 add_filter( 'body_class', 'x_child_body_class_info', 20000 );
+
+wp_enqueue_style('x-child-app',
+  get_stylesheet_directory_uri() . '/framework/css/app.css',
+  array('x-child'));
