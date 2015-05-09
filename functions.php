@@ -22,4 +22,13 @@ add_filter( 'x_enqueue_parent_stylesheet', '__return_true' );
 
 // Additional Functions
 // =============================================================================
+if (! function_exists('x_child_body_class_info')):
+  function x_child_body_class_info ($output) {
+    if (is_page_template('template-categories.php')) {
+      $output[] .= 'blog';
+    }
+    return $output;
+  }
+endif;
 
+add_filter( 'body_class', 'x_child_body_class_info', 20000 );
