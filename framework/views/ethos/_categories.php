@@ -7,7 +7,12 @@
 // =============================================================================
 
 $paged      = ( get_query_var( 'paged' ) ) ? get_query_var( 'paged' ) : 1;
-$categories = get_categories( array( 'include' => get_theme_mod( 'x_ethos_filterable_index_categories' ) ) );
+$categories = get_categories( array(
+  'include' => get_theme_mod( 'x_ethos_filterable_index_categories' ),
+  'orderby' => 'count',
+  'order'   => 'desc',
+  'number'  => 20
+) );
 
 ?>
 
@@ -18,8 +23,6 @@ $categories = get_categories( array( 'include' => get_theme_mod( 'x_ethos_filter
       <i class="x-icon-chevron-down"></i>
     </a>
     <ul class="x-index-filters-menu unstyled">
-
-      <li><a href="#" class="selected" data-category-id="0"><?php echo __( 'All', '__x__' ) ?></a></li>
       <?php foreach ( $categories as $category ) { ?>
         <?php static $i = 1; $selected = ( $i == 1 ) ? 'class="selected"' : ''; ?>
 
