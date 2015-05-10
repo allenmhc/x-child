@@ -91,11 +91,11 @@ if ( $is_blog || $is_archive ) :
     <script>
       jQuery(window).load(function() {
         jQuery('.x-post-slider').flexslider({
-          controlNav   : false,
+          controlNav   : true,
           selector     : '.x-slides > li',
           prevText     : '<i class="x-icon-chevron-left"></i>',
           nextText     : '<i class="x-icon-chevron-right"></i>',
-          animation    : 'fade',
+          animation    : 'slide',
           smoothHeight : true,
           slideshow    : true
         });
