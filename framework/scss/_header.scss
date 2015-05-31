@@ -1,0 +1,79 @@
+.site-header-wrapper {
+  margin-top: 20px;
+}
+
+.site-header-link {
+  display: block;
+  &:hover, &:active { text-decoration: none; }
+}
+
+header[role="banner"] {
+  &:hover {
+    .site-title-icon {
+      .dot { background-color: $color-yellow; }
+      .dot.first { top: 10px; }
+      .dot.second { bottom: 10px; }
+      .dot.third { right: 10px; }
+    }
+  }
+}
+
+$color-title-icon: $color-white;
+.site-title-icon {
+  @include box-sizing();
+  float: left;
+  position: relative;
+  width: 24px;
+  height: 24px;
+  border: 3px solid $color-title-icon;
+  border-radius: 6px;
+
+  .dot {
+    position: absolute;
+    width: 6px;
+    height: 6px;
+    background-color: $color-title-icon;
+    border-radius: 3px;
+    transition: all 0.4s linear;
+  }
+  .dot.first { top: 2px; right: 2px; }
+  .dot.second { bottom: 2px; left: 2px; }
+  .dot.third { bottom: 2px; right: 2px; }
+}
+
+.site-title-block {
+  float: right;
+  margin-left: 10px;
+}
+
+.site-title {
+  color: $color-white;
+  transition: color 0.2s ease-out;
+  text-transform: uppercase;
+  font-weight: 400;
+  letter-spacing: 4px;
+  text-shadow: none;
+  line-height: 1;
+  font-size: 2.6rem;
+  font-family: $header-font-family;
+  margin-top: 0;
+  margin-bottom: 0;
+  .tld {
+    font-weight: 100;
+    font-size: 1.4rem;
+  }
+  a:hover & {
+    color: $color-yellow;
+  }
+}
+
+.site-description {
+  color: $color-white-dark;
+  font-weight: 100;
+  font-size: 1.6rem;
+  font-family: $header-font-family;
+  letter-spacing: 1px;
+  line-height: 1.5;
+  margin-top: 0;
+  text-transform: lowercase;
+}

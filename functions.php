@@ -16,7 +16,7 @@
 // Enqueue Parent Stylesheet
 // =============================================================================
 
-/* add_filter( 'x_enqueue_parent_stylesheet', '__return_true' ); */
+add_filter( 'x_enqueue_parent_stylesheet', '__return_true' );
 
 
 
@@ -61,7 +61,16 @@ endif;
 
 wp_enqueue_style('x-child-app',
   get_stylesheet_directory_uri() . '/framework/css/app.css',
-  array('x-child'));
+  array('x-stack'));
+
+if (! function_exists( 'load_google_fonts ')):
+function load_google_fonts() {
+  wp_register_style('googleFonts', '//fonts.googleapis.com/css?family=Source+Sans+Pro:400,400italic,700,700italic|Lato:400,300,100|Open+Sans:300|;subset=latin,latin-ext');
+  wp_enqueue_style( 'googleFonts');
+}
+endif;
+
+add_action('wp_print_styles', 'load_google_fonts');
 
 
 // Get Content Layout

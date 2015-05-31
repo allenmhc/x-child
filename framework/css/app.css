@@ -2,4 +2,79 @@
 .single-post .x-main.left .hentry .entry-featured {
   margin-top: 0 !important; }
 
+.site-header-wrapper {
+  margin-top: 20px; }
+
+.site-header-link {
+  display: block; }
+  .site-header-link:hover, .site-header-link:active {
+    text-decoration: none; }
+
+header[role="banner"]:hover .site-title-icon .dot {
+  background-color: #f1c40f; }
+header[role="banner"]:hover .site-title-icon .dot.first {
+  top: 10px; }
+header[role="banner"]:hover .site-title-icon .dot.second {
+  bottom: 10px; }
+header[role="banner"]:hover .site-title-icon .dot.third {
+  right: 10px; }
+
+.site-title-icon {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  float: left;
+  position: relative;
+  width: 24px;
+  height: 24px;
+  border: 3px solid #ecf0f1;
+  border-radius: 6px; }
+  .site-title-icon .dot {
+    position: absolute;
+    width: 6px;
+    height: 6px;
+    background-color: #ecf0f1;
+    border-radius: 3px;
+    transition: all 0.4s linear; }
+  .site-title-icon .dot.first {
+    top: 2px;
+    right: 2px; }
+  .site-title-icon .dot.second {
+    bottom: 2px;
+    left: 2px; }
+  .site-title-icon .dot.third {
+    bottom: 2px;
+    right: 2px; }
+
+.site-title-block {
+  float: right;
+  margin-left: 10px; }
+
+.site-title {
+  color: #ecf0f1;
+  transition: color 0.2s ease-out;
+  text-transform: uppercase;
+  font-weight: 400;
+  letter-spacing: 4px;
+  text-shadow: none;
+  line-height: 1;
+  font-size: 2.6rem;
+  font-family: "Lato", Arial, sans-serif;
+  margin-top: 0;
+  margin-bottom: 0; }
+  .site-title .tld {
+    font-weight: 100;
+    font-size: 1.4rem; }
+  a:hover .site-title {
+    color: #f1c40f; }
+
+.site-description {
+  color: #bdc3c7;
+  font-weight: 100;
+  font-size: 1.6rem;
+  font-family: "Lato", Arial, sans-serif;
+  letter-spacing: 1px;
+  line-height: 1.5;
+  margin-top: 0;
+  text-transform: lowercase; }
+
 /*# sourceMappingURL=app.css.map */
