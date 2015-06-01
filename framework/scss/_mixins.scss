@@ -2,3 +2,8 @@
   box-sizing: border-box;
   -moz-box-sizing: border-box;
 }
+
+@mixin transition($args...) {
+  transition: $args;
+  -webkit-transition: $args;
+}

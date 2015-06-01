@@ -1,5 +1,8 @@
-.site-header-wrapper {
-  margin-top: 20px;
+// Logo styles
+// ---
+.x-navbar .site-header-wrapper.x-brand {
+  margin-top: 10px;
+  min-width: 350px;
 }
 
 .site-header-link {
@@ -42,7 +45,7 @@ $color-title-icon: $color-white;
 }
 
 .site-title-block {
-  float: right;
+  float: left;
   margin-left: 10px;
 }
 
@@ -70,10 +73,30 @@ $color-title-icon: $color-white;
 .site-description {
   color: $color-white-dark;
   font-weight: 100;
-  font-size: 1.6rem;
+  font-size: 1.5rem;
   font-family: $header-font-family;
   letter-spacing: 1px;
   line-height: 1.5;
   margin-top: 0;
   text-transform: lowercase;
+}
+
+// Navigation style overrides
+// ---
+
+.x-navbar .desktop .x-nav > .menu-item > a {
+  line-height: 65px;
+  padding-top: 0;
+}
+
+.x-navbar .desktop .x-nav > li > a {
+  padding-left: 15px !important;
+  padding-right: 15px !important;
+}
+
+.x-navbar .desktop .x-nav > li > a:hover,
+.x-navbar .desktop .x-nav > .x-active > a,
+.x-navbar .desktop .x-nav > .current-menu-item > a {
+  color: $color-white !important;
+  @include transition(box-shadow 0.2s, color 0.2s);
 }

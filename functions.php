@@ -61,7 +61,7 @@ endif;
 
 wp_enqueue_style('x-child-app',
   get_stylesheet_directory_uri() . '/framework/css/app.css',
-  array('x-stack'));
+  array('x-stack', 'x-shortcodes'));
 
 if (! function_exists( 'load_google_fonts ')):
 function load_google_fonts() {
