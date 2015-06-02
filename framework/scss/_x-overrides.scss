@@ -7,3 +7,12 @@
   }
 }
 
+body.x-child-theme-active {
+  background-image: url("../../images/satinweave.png");
+}
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  body.x-child-theme-active {
+    background-image: url("../../images/satinweave_@2X.png");
+    background-size: 24px 12px;
+  }
+}
