@@ -1,0 +1,39 @@
+// Navigation style overrides
+// ---
+
+footer.x-colophon.bottom {
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+  .x-colophon-content {
+    display: none;
+  }
+
+  .x-nav {
+    font-family: $header-font-family;
+    font-size: 1.3rem;
+    font-weight: 300;
+    letter-spacing: 1px;
+
+    a {
+      text-decoration: none;
+    }
+
+    li:after {
+      content: "|";
+      margin-left: 1em;
+      margin-right: 1em;
+    }
+  }
+
+  .x-social-global {
+    a {
+      font-size: 2.5rem;
+      &.twitter:hover { color: $color-twitter; }
+      &.google-plus:hover { color: $color-googleplus; }
+      &.linkedin:hover { color: $color-linkedin; }
+      &.github:hover { color: $color-github; }
+      &.rss:hover { color: $color-rss; }
+    }
+  }
+}

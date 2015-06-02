@@ -230,3 +230,30 @@ if ( !function_exists( 'x_ethos_entry_meta' ) ) :
 
   }
 endif;
+
+
+// Social icons and links
+// =============================================================================
+if ( ! function_exists( 'x_social_global' ) ) :
+  function x_social_global() {
+
+    $twitter     = "https://twitter.com/allenmhc";
+    $google_plus = "https://plus.google.com/+AllenCheungMH";
+    $linkedin    = "https://www.linkedin.com/in/allencheung";
+    $rss         = "http://allenc.com/feed/";
+    $github      = "https://github.com/allenmhc";
+
+    $output = '<div class="x-social-global">';
+
+    $output .= '<a href="' . $twitter     . '" class="twitter" title="Twitter" target="_blank"><i class="x-icon-twitter-square"></i></a>';
+    $output .= '<a href="' . $google_plus . '" class="google-plus" title="Google+" target="_blank"><i class="x-icon-google-plus-square"></i></a>';
+    $output .= '<a href="' . $linkedin    . '" class="linkedin" title="LinkedIn" target="_blank"><i class="x-icon-linkedin-square"></i></a>';
+    $output .= '<a href="' . $github      . '" class="github" title="Github" target="_blank"><i class="x-icon-github-square"></i></a>';
+    $output .= '<a href="' . $rss         . '" class="rss" title="RSS" target="_blank"><i class="x-icon-rss-square"></i></a>';
+
+    $output .= '</div>';
+
+    echo $output;
+
+  }
+endif;
