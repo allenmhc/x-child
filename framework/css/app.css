@@ -129,4 +129,18 @@ footer.x-colophon.bottom {
     footer.x-colophon.bottom .x-social-global a.rss:hover {
       color: #ff7f25; }
 
+.x-sidebar .widget ul li {
+  border-top: none;
+  line-height: 1.4; }
+  .x-sidebar .widget ul li:last-child {
+    border-bottom: none; }
+.x-sidebar .widget a {
+  text-decoration: none;
+  transition: color 0.3s;
+  -webkit-transition: color 0.3s; }
+  .x-sidebar .widget a:hover {
+    color: #2980b9 !important; }
+.x-sidebar .recent-posts-widget-with-thumbnails ul li {
+  margin-bottom: 0; }
+
 /*# sourceMappingURL=app.css.map */

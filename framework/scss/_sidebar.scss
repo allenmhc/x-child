@@ -1,0 +1,25 @@
+// Sidebar style overrides
+// ---
+.x-sidebar {
+  .widget {
+    ul {
+      li {
+        border-top: none;
+        line-height: 1.4;
+        &:last-child { border-bottom: none; }
+      }
+    }
+
+    a {
+      text-decoration: none;
+      @include transition(color 0.3s);
+      &:hover {
+        color: $color-blue-dark !important;
+      }
+    }
+  }
+
+  .recent-posts-widget-with-thumbnails ul li {
+    margin-bottom: 0;
+  }
+}
