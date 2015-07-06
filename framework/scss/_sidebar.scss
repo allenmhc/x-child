@@ -7,19 +7,68 @@
         border-top: none;
         line-height: 1.4;
         &:last-child { border-bottom: none; }
+
+        a:hover {
+          color: $color-blue-dark !important;
+        }
       }
     }
 
     a {
       text-decoration: none;
       @include transition(color 0.3s);
-      &:hover {
-        color: $color-blue-dark !important;
-      }
     }
   }
 
   .recent-posts-widget-with-thumbnails ul li {
     margin-bottom: 0;
+  }
+}
+
+// Sidebar archives calendar widget overrides
+// ---
+.calendar-archives.arw-theme1 {
+  font-family: $para-font-family;
+
+  div.calendar-navigation {
+    background-color: $color-x-grey-background;
+
+    .prev-year, .next-year {
+      color: $color-white;
+      border: none;
+      &:hover { background-color: $color-grey-dark; }
+      span { display: none; }
+      &:after {
+        top: 3px;
+        position: relative;
+        font-size: 10px;
+      }
+    }
+    .prev-year:after { content: '\25C0'; }
+    .next-year:after { content: '\25B6'; }
+
+    .menu-container {
+      &:hover { background-color: $color-grey-dark; }
+
+      a.title {
+        color: $color-white;
+      }
+      .arrow-down {
+        color: $color-white;
+        border: none;
+        &:hover { background-color: $color-grey-dark; }
+      }
+      ul.menu {
+        box-shadow: none;
+        li {
+          a {
+            line-height: 14px;
+            @include transition(none);
+            &:hover { color: $color-white !important; }
+            &.selected, &:hover { background-color: $color-x-grey-background; }
+          }
+        }
+      }
+    }
   }
 }

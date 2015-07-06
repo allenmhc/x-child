@@ -134,13 +134,52 @@ footer.x-colophon.bottom {
   line-height: 1.4; }
   .x-sidebar .widget ul li:last-child {
     border-bottom: none; }
+  .x-sidebar .widget ul li a:hover {
+    color: #2980b9 !important; }
 .x-sidebar .widget a {
   text-decoration: none;
   transition: color 0.3s;
   -webkit-transition: color 0.3s; }
-  .x-sidebar .widget a:hover {
-    color: #2980b9 !important; }
 .x-sidebar .recent-posts-widget-with-thumbnails ul li {
   margin-bottom: 0; }
+
+.calendar-archives.arw-theme1 {
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif; }
+  .calendar-archives.arw-theme1 div.calendar-navigation {
+    background-color: #333; }
+    .calendar-archives.arw-theme1 div.calendar-navigation .prev-year, .calendar-archives.arw-theme1 div.calendar-navigation .next-year {
+      color: #ecf0f1;
+      border: none; }
+      .calendar-archives.arw-theme1 div.calendar-navigation .prev-year:hover, .calendar-archives.arw-theme1 div.calendar-navigation .next-year:hover {
+        background-color: #7f8c8d; }
+      .calendar-archives.arw-theme1 div.calendar-navigation .prev-year span, .calendar-archives.arw-theme1 div.calendar-navigation .next-year span {
+        display: none; }
+      .calendar-archives.arw-theme1 div.calendar-navigation .prev-year:after, .calendar-archives.arw-theme1 div.calendar-navigation .next-year:after {
+        top: 3px;
+        position: relative;
+        font-size: 10px; }
+    .calendar-archives.arw-theme1 div.calendar-navigation .prev-year:after {
+      content: '\25C0'; }
+    .calendar-archives.arw-theme1 div.calendar-navigation .next-year:after {
+      content: '\25B6'; }
+    .calendar-archives.arw-theme1 div.calendar-navigation .menu-container:hover {
+      background-color: #7f8c8d; }
+    .calendar-archives.arw-theme1 div.calendar-navigation .menu-container a.title {
+      color: #ecf0f1; }
+    .calendar-archives.arw-theme1 div.calendar-navigation .menu-container .arrow-down {
+      color: #ecf0f1;
+      border: none; }
+      .calendar-archives.arw-theme1 div.calendar-navigation .menu-container .arrow-down:hover {
+        background-color: #7f8c8d; }
+    .calendar-archives.arw-theme1 div.calendar-navigation .menu-container ul.menu {
+      box-shadow: none; }
+      .calendar-archives.arw-theme1 div.calendar-navigation .menu-container ul.menu li a {
+        line-height: 14px;
+        transition: none;
+        -webkit-transition: none; }
+        .calendar-archives.arw-theme1 div.calendar-navigation .menu-container ul.menu li a:hover {
+          color: #ecf0f1 !important; }
+        .calendar-archives.arw-theme1 div.calendar-navigation .menu-container ul.menu li a.selected, .calendar-archives.arw-theme1 div.calendar-navigation .menu-container ul.menu li a:hover {
+          background-color: #333; }
 
 /*# sourceMappingURL=app.css.map */
