@@ -18,8 +18,6 @@
 
 add_filter( 'x_enqueue_parent_stylesheet', '__return_true' );
 
-
-
 // Additional Functions
 // =============================================================================
 
@@ -257,3 +255,13 @@ if ( ! function_exists( 'x_social_global' ) ) :
 
   }
 endif;
+
+// Archive calendar JavaScripts
+if ( ! function_exists('archive_calendar_script') ):
+function archive_calendar_script() {
+  wp_enqueue_script('archive-calendar-customization',
+                    get_stylesheet_directory_uri() . '/js/archive-calendar.js',
+                    array( 'jquery' ));
+}
+endif;
+add_action('wp_enqueue_scripts', 'archive_calendar_script');

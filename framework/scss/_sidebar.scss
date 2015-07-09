@@ -49,6 +49,10 @@
 
     .menu-container {
       &:hover { background-color: $color-grey-dark; }
+      &.years {
+        font-size: 14px;
+        font-weight: bold;
+      }
 
       a.title {
         color: $color-white;
@@ -68,6 +72,34 @@
             &.selected, &:hover { background-color: $color-x-grey-background; }
           }
         }
+      }
+    }
+  }
+
+  .archives-years {
+    .month {
+      .month-name {
+        color: $color-white;
+        font-size: 12px;
+        top: 2px;
+        left: 0;
+        right: 0;
+        text-align: center;
+      }
+
+      .postcount {
+        font-size: 12px;
+        top: 25px;
+        left: 10px;
+        right: 10px;
+        text-align: center;
+        line-height: 0.7;
+
+        .count-number {
+          color: $color-yellow;
+          font-size: 10px;
+        }
+        .count-text { display: none; }
       }
     }
   }
