@@ -204,4 +204,12 @@ footer.x-colophon.bottom {
     .calendar-archives.arw-theme1 .archives-years .month .postcount .count-text {
       display: none; }
 
+h1.entry-title {
+  font-size: 180%;
+  line-height: 1.2;
+  margin-bottom: 20px; }
+
+p.p-meta a {
+  font-weight: bold; }
+
 /*# sourceMappingURL=app.css.map */

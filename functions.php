@@ -63,7 +63,7 @@ wp_enqueue_style('x-child-app',
 
 if (! function_exists( 'load_google_fonts ')):
 function load_google_fonts() {
-  wp_register_style('googleFonts', '//fonts.googleapis.com/css?family=Source+Sans+Pro:400,400italic,700,700italic|Lato:400,300,100|Open+Sans:300|;subset=latin,latin-ext');
+  wp_register_style('googleFonts', '//fonts.googleapis.com/css?family=Source+Sans+Pro:400,400italic,700,700italic|Lato:700,400,300,100|Open+Sans:300|;subset=latin,latin-ext');
   wp_enqueue_style( 'googleFonts');
 }
 endif;
@@ -219,10 +219,9 @@ if ( !function_exists( 'x_ethos_entry_meta' ) ) :
     if ( x_does_not_need_entry_meta() ) {
       return;
     } else {
-      printf( '<p class="p-meta">%1$s%2$s%3$s</p>',
+      printf( '<p class="p-meta">%1$s%2$s</p>',
         $categories_list,
-        $date,
-        $comments
+        $date
       );
     }
 
