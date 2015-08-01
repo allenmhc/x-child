@@ -35,9 +35,52 @@ p.p-meta {
     font-size: 18px;
     line-height: 1.4;
     margin-bottom: 1.5em;
+    &:last-child { margin-bottom: 0; }
   }
 
   a {
     text-decoration: underline;
   }
+
+  ul, ol {
+    margin-bottom: 1.5em;
+
+    li {
+      line-height: 1.4;
+      margin-bottom: 0.5em;
+    }
+  }
+
+  blockquote {
+    margin: 1.5em 1.5em;
+    font-family: $para-font-family;
+    font-weight: 300;
+    border-left: 2px solid rgba(0, 0, 0, 0.2);
+    border-top: none;
+    border-bottom: none;
+    padding: 0.5em 0 0.5em 1em;
+    quotes: "“" "”";
+    position: relative;
+
+    &:before {
+      content: open-quote;
+      font-size: 3em;
+      color: rgba(0, 0, 0, 0.2);
+      position: absolute;
+      left: -0.5em;
+      top: -0.4em;
+    }
+  }
+}
+
+// Footnotes
+
+.entry-content {
+  #footnote-list, .footnotes {
+    ol {
+      font-size: 16px;
+    }
+  }
+
+  .bigfoot-footnote__content p { font-size: 16px; }
 }

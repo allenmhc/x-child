@@ -1,3 +1,4 @@
+@charset "UTF-8";
 .page .x-main.left .hentry .entry-featured,
 .single-post .x-main.left .hentry .entry-featured {
   margin-top: 0 !important; }
@@ -232,7 +233,36 @@ p.p-meta a {
   font-size: 18px;
   line-height: 1.4;
   margin-bottom: 1.5em; }
+  .entry-content.content p:last-child {
+    margin-bottom: 0; }
 .entry-content.content a {
   text-decoration: underline; }
+.entry-content.content ul, .entry-content.content ol {
+  margin-bottom: 1.5em; }
+  .entry-content.content ul li, .entry-content.content ol li {
+    line-height: 1.4;
+    margin-bottom: 0.5em; }
+.entry-content.content blockquote {
+  margin: 1.5em 1.5em;
+  font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  border-left: 2px solid rgba(0, 0, 0, 0.2);
+  border-top: none;
+  border-bottom: none;
+  padding: 0.5em 0 0.5em 1em;
+  quotes: "“" "”";
+  position: relative; }
+  .entry-content.content blockquote:before {
+    content: open-quote;
+    font-size: 3em;
+    color: rgba(0, 0, 0, 0.2);
+    position: absolute;
+    left: -0.5em;
+    top: -0.4em; }
+
+.entry-content #footnote-list ol, .entry-content .footnotes ol {
+  font-size: 16px; }
+.entry-content .bigfoot-footnote__content p {
+  font-size: 16px; }
 
 /*# sourceMappingURL=app.css.map */
