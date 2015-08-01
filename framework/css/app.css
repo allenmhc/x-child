@@ -144,7 +144,7 @@ footer.x-colophon.bottom {
   margin-bottom: 0; }
 
 .calendar-archives.arw-theme1 {
-  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif; }
+  font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif; }
   .calendar-archives.arw-theme1 div.calendar-navigation {
     background-color: #333; }
     .calendar-archives.arw-theme1 div.calendar-navigation .prev-year, .calendar-archives.arw-theme1 div.calendar-navigation .next-year {
@@ -204,12 +204,35 @@ footer.x-colophon.bottom {
     .calendar-archives.arw-theme1 .archives-years .month .postcount .count-text {
       display: none; }
 
+.h-featured {
+  text-transform: none; }
+
+.entry-title {
+  line-height: 1.3; }
+
 h1.entry-title {
   font-size: 180%;
-  line-height: 1.2;
   margin-bottom: 20px; }
+
+h2.entry-title {
+  font-size: 140%; }
 
 p.p-meta a {
   font-weight: bold; }
+
+.blog p.p-meta {
+  margin-top: 0.5em; }
+
+.blog .entry-content.excerpt {
+  margin-top: 0.2em;
+  line-height: 1.4;
+  font-size: 16px; }
+
+.entry-content.content p {
+  font-size: 18px;
+  line-height: 1.4;
+  margin-bottom: 1.5em; }
+.entry-content.content a {
+  text-decoration: underline; }
 
 /*# sourceMappingURL=app.css.map */

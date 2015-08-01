@@ -1,0 +1,43 @@
+// Post style overrides
+// ---
+
+// Post Slider
+
+.h-featured {
+  text-transform: none;
+}
+
+// Header
+
+.entry-title {
+  line-height: 1.3;
+}
+h1.entry-title { font-size: 180%; margin-bottom: 20px; }
+h2.entry-title { font-size: 140%; }
+
+p.p-meta {
+  a {
+    font-weight: bold;
+  }
+}
+.blog p.p-meta { margin-top: 0.5em; }
+
+// Post body
+
+.blog .entry-content.excerpt {
+  margin-top: 0.2em;
+  line-height: 1.4;
+  font-size: 16px;
+}
+
+.entry-content.content {
+  p {
+    font-size: 18px;
+    line-height: 1.4;
+    margin-bottom: 1.5em;
+  }
+
+  a {
+    text-decoration: underline;
+  }
+}
