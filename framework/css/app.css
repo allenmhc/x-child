@@ -225,6 +225,12 @@ footer.x-colophon.bottom {
 .h-featured {
   text-transform: none; }
 
+.x-header-landmark {
+  padding-top: 1em;
+  padding-bottom: 1.25em; }
+  .x-header-landmark .h-landmark {
+    font-size: 150%; }
+
 .entry-title {
   line-height: 1.3; }
 

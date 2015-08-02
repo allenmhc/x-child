@@ -7,6 +7,16 @@
   text-transform: none;
 }
 
+// Post landmark title
+
+.x-header-landmark {
+  padding-top: 1em;
+  padding-bottom: 1.25em;
+  .h-landmark {
+    font-size: 150%;
+  }
+}
+
 // Header
 
 .entry-title {
