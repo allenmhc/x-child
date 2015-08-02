@@ -222,6 +222,10 @@ footer.x-colophon.bottom {
     .calendar-archives.arw-theme1 .archives-years .month .postcount .count-text {
       display: none; }
 
+.x-index-filters-menu {
+  font-size: 14px;
+  font-weight: normal; }
+
 .h-featured {
   text-transform: none; }
 
