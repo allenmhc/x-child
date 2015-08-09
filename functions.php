@@ -105,6 +105,8 @@ if ( ! function_exists( 'x_get_content_layout' ) ) :
         $layout = 'full-width';
       } elseif ( is_page_template( 'template-articles.php' ) ) {
         $layout = 'full-width';
+      } elseif ( is_page_template( 'template-about.php' ) ) {
+        $layout = 'full-width';
       } elseif ( is_archive() ) {
         if ( x_is_shop() || x_is_product_category() || x_is_product_tag() ) {
           $opt    = x_get_option( 'x_woocommerce_shop_layout_content', 'sidebar' );
