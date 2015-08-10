@@ -3,6 +3,9 @@
 .single-post .x-main.left .hentry .entry-featured {
   margin-top: 0 !important; }
 
+.x-header-landmark {
+  display: none; }
+
 body.x-child-theme-active {
   background-image: url("../../images/satinweave.png"); }
 
@@ -225,6 +228,9 @@ footer.x-colophon.bottom {
 .x-index-filters-menu {
   font-size: 14px;
   font-weight: normal; }
+
+.page-template-template-categories .x-header-landmark + .x-container-fluid > .offset > .x-sidebar {
+  margin-top: 0; }
 
 .h-featured {
   text-transform: none; }

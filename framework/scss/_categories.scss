@@ -5,3 +5,9 @@
   font-size: 14px;
   font-weight: normal;
 }
+
+.page-template-template-categories {
+  .x-header-landmark + .x-container-fluid > .offset > .x-sidebar {
+    margin-top: 0;
+  }
+}
