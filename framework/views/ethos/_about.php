@@ -103,29 +103,23 @@
 
     <div class="x-column x-sm x-2-3">
       <h2 class="h-custom-headline h5 accent"><span>Recommended</span></h2>
-      <div id="x-content-band-1" class="x-content-band bg-image" data-x-element="content_band" data-x-params="{&quot;type&quot;:&quot;image&quot;,&quot;parallax&quot;:false}"
-        style="background-image: url(http://localhost:8888/wordpress/wp-content/uploads/2011/04/google-hq.jpg); background-color: transparent; padding-top: 0px; padding-bottom: 0px;">
-        <div class="x-container">
-          <a href="http://allenc.com/2011/04/how-to-score-a-google-onsite-interview/">
-            <h6>How to Score a Google Onsite Interview</h6>
-          </a>
+      <a href="<?php echo home_url(); ?>/2011/04/how-to-score-a-google-onsite-interview/">
+        <div id="x-content-band-1" class="x-content-band recommended-box bg-image"
+          style="background-image: url(http://localhost:8888/wordpress/wp-content/uploads/2011/04/google-hq.jpg); background-color: transparent; padding-top: 0px; padding-bottom: 0px;">
+          <h6 class="x-container">How to Score a Google Onsite Interview</h6>
         </div>
-      </div>
-      <div id="x-content-band-2" class="x-content-band" style="background-color: #bababa; padding-top: 0px; padding-bottom: 0px;">
-        <div class="x-container">
-          <a href="http://allenc.com/2012/02/why-javascript-is-a-joy/">
-            <h6>Why Javascript is a Joy</h6>
-          </a>
+      </a>
+      <a href="<?php echo home_url(); ?>/2012/02/why-javascript-is-a-joy/">
+        <div id="x-content-band-2" class="x-content-band recommended-box">
+          <h6 class="x-container">Why Javascript is a Joy</h6>
         </div>
-      </div>
-      <div id="x-content-band-3" class="x-content-band bg-image" data-x-element="content_band" data-x-params="{&quot;type&quot;:&quot;image&quot;,&quot;parallax&quot;:false}"
-        style="background-image: url(http://localhost:8888/wordpress/wp-content/uploads/2015/04/GOMY9CQSvmjKLxigsfxg_Attic.jpg); background-color: transparent; padding-top: 0px; padding-bottom: 0px;">
-        <div class="x-container">
-          <a href="http://allenc.com/2015/04/salary-requirements-for-a-house-in-silicon-valley/">
-            <h6>Salary Requirements for a House in Silicon Valley</h6>
-          </a>
+      </a>
+      <a href="<?php echo home_url(); ?>/2015/04/salary-requirements-for-a-house-in-silicon-valley/">
+        <div id="x-content-band-3" class="x-content-band recommended-box bg-image"
+          style="background-image: url(http://localhost:8888/wordpress/wp-content/uploads/2015/04/GOMY9CQSvmjKLxigsfxg_Attic.jpg); background-color: transparent; padding-top: 0px; padding-bottom: 0px;">
+          <h6 class="x-container">Salary Requirements for a House in Silicon Valley</h6>
         </div>
-      </div>
+      </a>
     </div>
   </div>
 
