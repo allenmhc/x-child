@@ -45,19 +45,9 @@
   <div class="x-container max width">
     <h2 class="h-custom-headline right-text h5 accent"><span>Stats</span></h2>
     <div class="x-column x-sm x-1-3">
-      <div class="x-counter counter-age" data-x-element="counter"
-      data-x-params="{&quot;numEnd&quot;:<?php echo $days_since; ?>,&quot;numSpeed&quot;:1000}">
-        <span class="text-above">Been here for</span>
-        <div class="number-wrap w-h">
-          <span class="number"><?php echo $days_since; ?></span>
-        </div>
-        <span class="text-below">Days</span>
-      </div>
-    </div>
-    <div class="x-column x-sm x-1-3">
       <div class="x-counter counter-posts" data-x-element="counter"
-        data-x-params="{&quot;numEnd&quot;:<?php echo $post_count; ?>,&quot;numSpeed&quot;:1500}">
-        <span class="text-above">Having written</span>
+        data-x-params='{"numEnd":<?php echo $post_count; ?>,"numSpeed":1000}'>
+        <span class="text-above">Authored</span>
         <div class="number-wrap w-h">
           <span class="number"><?php echo $post_count; ?></span>
         </div>
@@ -66,12 +56,22 @@
     </div>
     <div class="x-column x-sm x-1-3">
       <div class="x-counter counter-avgwords" data-x-element="counter"
-        data-x-params="{&quot;numEnd&quot;:<?php echo $avg_words_per_post; ?>,&quot;numSpeed&quot;:2000}">
-        <span class="text-above">With averages of</span>
+        data-x-params='{"numEnd":<?php echo $avg_words_per_post; ?>,"numSpeed":2000}'>
+        <span class="text-above">Averaging</span>
         <div class="number-wrap w-h">
           <span class="number"><?php echo $avg_words_per_post; ?></span>
         </div>
         <span class="text-below">words per post</span>
+      </div>
+    </div>
+    <div class="x-column x-sm x-1-3">
+      <div class="x-counter counter-age" data-x-element="counter"
+      data-x-params='{"numEnd":<?php echo $days_since; ?>,"numSpeed":3000}'>
+        <span class="text-above">Over</span>
+        <div class="number-wrap w-h">
+          <span class="number"><?php echo $days_since; ?></span>
+        </div>
+        <span class="text-below">Days</span>
       </div>
     </div>
   </div>
@@ -103,7 +103,6 @@
 
     <div class="x-column x-sm x-2-3">
       <h2 class="h-custom-headline h5 accent"><span>Recommended</span></h2>
-      <p>Some of my more popular and arguably insightful posts:</p>
       <div id="x-content-band-1" class="x-content-band bg-image" data-x-element="content_band" data-x-params="{&quot;type&quot;:&quot;image&quot;,&quot;parallax&quot;:false}"
         style="background-image: url(http://localhost:8888/wordpress/wp-content/uploads/2011/04/google-hq.jpg); background-color: transparent; padding-top: 0px; padding-bottom: 0px;">
         <div class="x-container">
