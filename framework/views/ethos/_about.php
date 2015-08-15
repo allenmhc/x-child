@@ -35,31 +35,41 @@
     </div>
   </div>
 
+  <?php
+    $report = Word_Stats_Core::recount_totals();
+    $post_count = $report[ 'type_count' ][ 'post' ];
+    $word_count = $report[ 'author_count_total' ][ -1 ];
+    $avg_words_per_post = round($word_count / $post_count);
+    $days_since = floor((time() - strtotime("2011-04-30")) / (60 * 60 * 24));
+  ?>
   <div class="x-container max width">
     <h2 class="h-custom-headline right-text h5 accent"><span>Stats</span></h2>
     <div class="x-column x-sm x-1-3">
-      <div class="x-counter counter-age" data-x-element="counter" data-x-params="{&quot;numEnd&quot;:400,&quot;numSpeed&quot;:1500}">
+      <div class="x-counter counter-age" data-x-element="counter"
+      data-x-params="{&quot;numEnd&quot;:<?php echo $days_since; ?>,&quot;numSpeed&quot;:1000}">
         <span class="text-above">Been here for</span>
         <div class="number-wrap w-h">
-          <span class="number">400</span>
+          <span class="number"><?php echo $days_since; ?></span>
         </div>
         <span class="text-below">Days</span>
       </div>
     </div>
     <div class="x-column x-sm x-1-3">
-      <div class="x-counter counter-posts" data-x-element="counter" data-x-params="{&quot;numEnd&quot;:400,&quot;numSpeed&quot;:1500}">
-        <span class="text-above">Showing</span>
+      <div class="x-counter counter-posts" data-x-element="counter"
+        data-x-params="{&quot;numEnd&quot;:<?php echo $post_count; ?>,&quot;numSpeed&quot;:1500}">
+        <span class="text-above">Having written</span>
         <div class="number-wrap w-h">
-          <span class="number">400</span>
+          <span class="number"><?php echo $post_count; ?></span>
         </div>
         <span class="text-below">Posts</span>
       </div>
     </div>
     <div class="x-column x-sm x-1-3">
-      <div class="x-counter counter-avgwords" data-x-element="counter" data-x-params="{&quot;numEnd&quot;:400,&quot;numSpeed&quot;:1500}">
-        <span class="text-above">With an average of</span>
+      <div class="x-counter counter-avgwords" data-x-element="counter"
+        data-x-params="{&quot;numEnd&quot;:<?php echo $avg_words_per_post; ?>,&quot;numSpeed&quot;:2000}">
+        <span class="text-above">With averages of</span>
         <div class="number-wrap w-h">
-          <span class="number">400</span>
+          <span class="number"><?php echo $avg_words_per_post; ?></span>
         </div>
         <span class="text-below">words per post</span>
       </div>
