@@ -13,6 +13,24 @@ body.x-child-theme-active {
   body.x-child-theme-active {
     background-image: url("../../images/satinweave_@2X.png");
     background-size: 24px 12px; } }
+h1 {
+  font-size: 170%; }
+
+h2 {
+  font-size: 155%; }
+
+h3 {
+  font-size: 140%; }
+
+h4 {
+  font-size: 120%; }
+
+h5 {
+  font-size: 110%; }
+
+h6 {
+  font-size: 100%; }
+
 .x-navbar .site-header-wrapper.x-brand {
   margin-top: 10px;
   min-width: 350px; }
