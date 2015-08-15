@@ -306,6 +306,8 @@ p.p-meta a {
   background-repeat: no-repeat !important;
   margin-top: 5px; }
 
+.about h1.h-custom-headline {
+  margin-top: 0; }
 .about p {
   line-height: 1.4;
   margin-bottom: 1.5em; }

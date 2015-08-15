@@ -18,20 +18,19 @@
 
     <div class="x-column x-sm x-1-2">
       <p>
-        This is Allen. I’m a software engineering manager in the San Francisco Bay Area,
-        primarily helping to build complex web applications. I’m currently employed at
-        Square, with prior stints at Google, FactSet Research Systems, and a handful of
-        startups.
+        My name is Allen. By day I’m a software engineer, building the front and back
+        ends of sophisticated web applications. I’m currently employed at Square, with
+        prior gigs at Google, FactSet Research Systems, and a handful of startups.
       </p>
       <p>
-        I created allenc.com in 2011 to cultivate the thoughts around my work and my
-        hobbies. I like writing about technology, software development,
-        thought-provoking books, video games, and the general messiness that makes life
-        interesting.
+        I registered <em>allenc.com</em> back in 2011 to jot down my thoughts around
+        work and various hobbies. With work, I primarily write about technology,
+        software development and people management.  My hobbyist blogging topics consist
+        of stimulating books, video games, and living in the San Francisco Bay Area.
       </p>
       <p>
-        When not wordifying my opinions into the digital ether, I can usually
-        be found hanging out with my wife and our incredibly energetic toddler.
+        When not wordifying my opinions onto virtual parchment, I can be found
+        hanging out with my wife and our incredibly energetic toddler.
       </p>
     </div>
   </div>
@@ -71,15 +70,24 @@
     <div class="x-column x-sm x-1-3">
       <h2 class="h-custom-headline h5 accent"><span>Colophon</span></h2>
       <p>
-        This blog is powered by WordPress and Themeforest’s X Theme, with some
-        additional customization (hosted on Github). The titles and headers are rendered
-        in the Lato typeface, while the rest of the text is primarily Open Sans.
-        allenc.com is registered and hosted by Dreamhost.
+        <em>allenc.com</em> is powered by <a
+        href="https://wordpress.org/">WordPress</a>. The visual design is my
+        customization of Themeforest’s <a href="http://theme.co/x/">X Theme</a>,
+        available on <a href="https://github.com/allenmhc/x-child">Github</a>.
+        <em>allenc.com</em> is registered and hosted by <a
+        href="https://www.dreamhost.com/">Dreamhost</a>.
       </p>
       <p>
-        I write mostly short blog posts with periodic longer-form articles, ideally
-        publishing daily. I use a combination of Byword and Blogo on OS X to write and
-        edit my posts.
+        Fonts are provided by <a href="https://www.google.com/fonts">Google Fonts</a>.
+        Titles and headers are rendered with the <a
+        href="https://www.google.com/fonts/specimen/Lato">Lato</a> typeface, while the
+        text body is primarily <a
+        href="https://www.google.com/fonts/specimen/Source+Sans+Pro">Source Sans
+        Pro</a>.
+      </p>
+      <p>
+        I do most of my blogging in the <a href="http://www.getblogo.com">Blogo</a> OS X
+        app, posting 2-3 times a week.
       </p>
     </div>
 
