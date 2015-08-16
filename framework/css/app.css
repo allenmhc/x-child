@@ -188,6 +188,9 @@ footer.x-colophon.bottom {
 .rpwwt-widget {
   margin-top: 3em; }
 
+.x-header-landmark + .x-container-fluid > .offset > .x-sidebar {
+  margin-top: 0; }
+
 .calendar-archives.arw-theme1 {
   font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif; }
   .calendar-archives.arw-theme1 div.calendar-navigation {

@@ -32,10 +32,15 @@
   .recent-posts-widget-with-thumbnails ul li {
     margin-bottom: 0;
   }
+
 }
 
 .rpwwt-widget {
   margin-top: 3em;
+}
+
+.x-header-landmark + .x-container-fluid > .offset > .x-sidebar {
+  margin-top: 0;
 }
 
 // Sidebar archives calendar widget overrides
