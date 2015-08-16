@@ -327,7 +327,7 @@ p.p-meta a {
 .entry-content .bigfoot-footnote__content p {
   font-size: 16px; }
 
-article.post.type-post.hentry {
+.x-main > article.post.type-post.hentry {
   margin-bottom: 1.5em; }
 
 .profile-image {
