@@ -3,6 +3,19 @@
 .x-navbar .site-header-wrapper.x-brand {
   margin-top: 10px;
   min-width: 350px;
+  .site-description {
+    &.desktop { display: block; }
+    &.mobile { display: none; }
+  }
+}
+@media (max-width: 979px) {
+  .x-navbar .site-header-wrapper.x-brand {
+    min-width: 0;
+    .site-description {
+      &.desktop { display: none; }
+      &.mobile { display: block; }
+    }
+  }
 }
 
 .site-header-link {

@@ -34,7 +34,18 @@ h6 {
 .x-navbar .site-header-wrapper.x-brand {
   margin-top: 10px;
   min-width: 350px; }
+  .x-navbar .site-header-wrapper.x-brand .site-description.desktop {
+    display: block; }
+  .x-navbar .site-header-wrapper.x-brand .site-description.mobile {
+    display: none; }
 
+@media (max-width: 979px) {
+  .x-navbar .site-header-wrapper.x-brand {
+    min-width: 0; }
+    .x-navbar .site-header-wrapper.x-brand .site-description.desktop {
+      display: none; }
+    .x-navbar .site-header-wrapper.x-brand .site-description.mobile {
+      display: block; } }
 .site-header-link {
   display: block; }
   .site-header-link:hover, .site-header-link:active {

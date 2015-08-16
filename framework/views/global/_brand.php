@@ -25,7 +25,8 @@ $site_description = get_bloginfo( 'description' );
       <h1 class="site-title">
         <span class="domain">allenc</span><span class="tld">.com</span>
       </h1>
-      <h2 class="site-description"><?php echo $site_description; ?></h2>
+      <h2 class="site-description desktop">a thoughtstream of technology and design</h2>
+      <h2 class="site-description mobile">a thoughtstream of tech</h2>
     </div>
 
   </a>
