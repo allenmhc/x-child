@@ -85,7 +85,7 @@
         customization of Themeforest’s <a href="http://theme.co/x/">X Theme</a>,
         available on <a href="https://github.com/allenmhc/x-child">Github</a>.
         <em>allenc.com</em> is registered and hosted by <a
-        href="https://www.dreamhost.com/">Dreamhost</a>.
+        href="https://www.siteground.com/">SiteGround</a>.
       </p>
       <p>
         Fonts are provided by <a href="https://www.google.com/fonts">Google Fonts</a>.
