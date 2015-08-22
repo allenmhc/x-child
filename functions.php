@@ -257,6 +257,7 @@ if ( ! function_exists( 'x_social_global' ) ) :
   }
 endif;
 
+
 // Archive calendar JavaScripts
 if ( ! function_exists('archive_calendar_script') ):
 function archive_calendar_script() {
@@ -266,3 +267,24 @@ function archive_calendar_script() {
 }
 endif;
 add_action('wp_enqueue_scripts', 'archive_calendar_script');
+
+
+// Ad block after post
+if ( ! function_exists('after_content_google_ads_code') ):
+function after_content_google_ads_code() {
+  echo <<<ADS
+  <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+  <!-- Responsive -->
+  <ins class="adsbygoogle"
+       style="display:block"
+       data-ad-client="ca-pub-4920071993370936"
+       data-ad-slot="9131674607"
+       data-ad-format="auto"></ins>
+  <script>
+  (adsbygoogle = window.adsbygoogle || []).push({});
+  </script>
+ADS;
+}
+endif;
+
+add_action('x_after_the_content_end', 'after_content_google_ads_code');
