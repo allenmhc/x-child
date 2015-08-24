@@ -273,16 +273,18 @@ add_action('wp_enqueue_scripts', 'archive_calendar_script');
 if ( ! function_exists('after_content_google_ads_code') ):
 function after_content_google_ads_code() {
   echo <<<ADS
-  <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-  <!-- Responsive -->
-  <ins class="adsbygoogle"
-       style="display:block"
-       data-ad-client="ca-pub-4920071993370936"
-       data-ad-slot="9131674607"
-       data-ad-format="auto"></ins>
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+  <div class="ad-unit ad-unit-post">
+    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <!-- Responsive -->
+    <ins class="adsbygoogle"
+         style="display:block"
+         data-ad-client="ca-pub-4920071993370936"
+         data-ad-slot="9131674607"
+         data-ad-format="auto"></ins>
+    <script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
+  </div>
 ADS;
 }
 endif;

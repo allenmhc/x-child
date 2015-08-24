@@ -50,16 +50,18 @@ endif;
       <?php x_get_view( $stack, 'content', get_post_format() ); ?>
       <?php $i += 1; ?>
       <?php if ($i == 3): ?>
-        <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-        <!-- Responsive -->
-        <ins class="adsbygoogle"
-             style="display:block"
-             data-ad-client="ca-pub-4920071993370936"
-             data-ad-slot="9131674607"
-             data-ad-format="auto"></ins>
-        <script>
-        (adsbygoogle = window.adsbygoogle || []).push({});
-        </script>
+        <div class="ad-unit ad-unit-index">
+          <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+          <!-- Responsive -->
+          <ins class="adsbygoogle"
+               style="display:block"
+               data-ad-client="ca-pub-4920071993370936"
+               data-ad-slot="9131674607"
+               data-ad-format="auto"></ins>
+          <script>
+          (adsbygoogle = window.adsbygoogle || []).push({});
+          </script>
+        </div>
       <?php endif; ?>
     <?php endwhile; ?>
   <?php else : ?>
