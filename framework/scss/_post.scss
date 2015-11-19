@@ -49,7 +49,8 @@ p.p-meta {
   }
 
   a {
-    text-decoration: underline;
+    // text-decoration: underline;
+    @include linkUnderlines(#fff, #2980b9);
   }
 
   ul, ol {
