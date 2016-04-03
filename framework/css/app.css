@@ -273,6 +273,14 @@ footer.x-colophon.bottom {
   .x-header-landmark .h-landmark {
     font-size: 150%; }
 
+.entry-featured .media-credit {
+  width: auto !important;
+  font-size: 0.5em;
+  text-transform: uppercase;
+  font-family: "Lato", Arial, sans-serif;
+  letter-spacing: 1px;
+  margin: 5px 3px; }
+
 .entry-title {
   line-height: 1.3; }
 

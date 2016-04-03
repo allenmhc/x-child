@@ -17,6 +17,19 @@
   }
 }
 
+
+// Featured image credit
+.entry-featured {
+  .media-credit {
+    width: auto !important;
+    font-size: 0.5em;
+    text-transform: uppercase;
+    font-family: $header-font-family;
+    letter-spacing: 1px;
+    margin: 5px 3px;
+  }
+}
+
 // Header
 
 .entry-title {
