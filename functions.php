@@ -269,6 +269,7 @@ endif;
 add_action('wp_enqueue_scripts', 'archive_calendar_script');
 
 
+// Keeping this around if I ever decide to reintegrate with AdSense again
 // Ad block after post
 if ( ! function_exists('after_content_google_ads_code') ):
 function after_content_google_ads_code() {
@@ -289,4 +290,4 @@ ADS;
 }
 endif;
 
-add_action('x_after_the_content_end', 'after_content_google_ads_code');
+//add_action('x_after_the_content_end', 'after_content_google_ads_code');
