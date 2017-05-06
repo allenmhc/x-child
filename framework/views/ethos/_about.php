@@ -18,9 +18,10 @@
 
     <div class="x-column x-sm x-1-2">
       <p>
-        My name is Allen. By day I’m a software engineer, building the front and back
-        ends of sophisticated web applications. I’m currently employed at Square, with
-        prior gigs at Google, FactSet Research Systems, and a handful of startups.
+        My name is Allen. By day I’m a software engineer, building the front and
+        back ends of sophisticated web applications. I’m currently working as a director
+        of engineering at a startup called Affirm, with prior gigs at Counsyl, Square,
+        and Google.
       </p>
       <p>
         I registered <em>allenc.com</em> back in 2011 to jot down my thoughts around
@@ -30,7 +31,7 @@
       </p>
       <p>
         When not wordifying my opinions onto virtual parchment, I can be found
-        hanging out with my wife and our incredibly energetic toddler.
+        hanging out with my wife and our incredibly energetic children.
       </p>
     </div>
   </div>
