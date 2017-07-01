@@ -7,6 +7,7 @@
   display: none; }
 
 body.x-child-theme-active {
+  color: #3b3b3b;
   background-image: url("../../images/satinweave.png"); }
 
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
